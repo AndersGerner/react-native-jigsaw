@@ -26,9 +26,8 @@ jobs:
           path: "node_modules"
           key: node_modules-${{ hashFiles('yarn.lock') }}
 
-      - name: Install Dependencies
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
+      - name: Install Dependencies and Link Modules
+        run: yarn lerna bootstrap
 
       - name: Type Check
         run: yarn typescript
