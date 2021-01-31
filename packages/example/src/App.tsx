@@ -27,14 +27,10 @@ import CarouselExample from "./CarouselExample";
 import ContainerExample from "./ContainerExample";
 import ControllerExample from "./ControllerExample";
 
-import DatePickerExample from "./DatePickerExample";
-
 import FABExample from "./FABExample";
 import FieldSearchBarFullExample from "./FieldSearchBarFullExample";
 
 import HeaderExample from "./HeaderExample";
-
-import PickerExample from "./PickerExample";
 
 import ProgressExample from "./ProgressExample";
 
@@ -68,11 +64,9 @@ const ROUTES = {
   Carousel: CarouselExample,
   Container: ContainerExample,
   Controllers: ControllerExample,
-  DatePicker: DatePickerExample,
   FieldSearchBarFull: FieldSearchBarFullExample,
   // TODO fix Header (spacing problem, textOverflow ellipses doesn't work on web)
   Header: HeaderExample,
-  Picker: PickerExample,
   ProgressBar: ProgressExample,
   ProgressIndicator: ProgressIndicatorExample,
   // TODO fix Row (spacing problem)

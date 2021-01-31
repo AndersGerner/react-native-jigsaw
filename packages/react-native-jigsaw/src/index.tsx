@@ -21,7 +21,6 @@ export { default as Checkbox } from "./components/Checkbox";
 
 export { default as Container } from "./components/Container";
 
-export { default as DatePicker } from "./components/DatePicker/DatePicker";
 export { default as Divider } from "./components/Divider";
 
 export { default as FAB } from "./components/FAB";
@@ -37,8 +36,6 @@ export { default as IconButton } from "./components/IconButton";
 export { default as HeaderLarge } from "./components/HeaderLarge";
 export { default as HeaderMedium } from "./components/HeaderMedium";
 export { default as HeaderOverline } from "./components/HeaderOverline";
-
-export { default as Picker } from "./components/Picker/Picker";
 
 export { default as ProgressBar } from "./components/ProgressBar";
 export { default as ProgressCircle } from "./components/ProgressCircle";
